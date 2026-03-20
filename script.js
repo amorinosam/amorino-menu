@@ -198,6 +198,8 @@ function createCardHTML(item) {
 
 function render(containerId, items) {
   const container = document.getElementById(containerId);
+  if (!container) return;
+
   container.innerHTML = "";
 
   items.forEach(item => {
@@ -213,5 +215,60 @@ function render(containerId, items) {
   });
 }
 
+function initInfiniteCarousels() {
+  const carousels = document.querySelectorAll('[data-infinite="true"]');
+
+  carousels.forEach(carousel => {
+    const originalItems = Array.from(carousel.children);
+    if (originalItems.length < 2) return;
+
+    const cloneBefore = originalItems.map(item => item.cloneNode(true));
+    const cloneAfter = originalItems.map(item => item.cloneNode(true));
+
+    cloneBefore.forEach(clone => {
+      carousel.insertBefore(clone, carousel.firstChild);
+    });
+
+    cloneAfter.forEach(clone => {
+      carousel.appendChild(clone);
+    });
+
+    const jumpToMiddle = () => {
+      const sectionWidth = carousel.scrollWidth / 3;
+      carousel.scrollLeft = sectionWidth;
+    };
+
+    requestAnimationFrame(() => {
+      jumpToMiddle();
+      carousel.classList.add("is-ready");
+    });
+
+    let isAdjusting = false;
+
+    carousel.addEventListener("scroll", () => {
+      if (isAdjusting) return;
+
+      const sectionWidth = carousel.scrollWidth / 3;
+      const leftEdge = sectionWidth * 0.35;
+      const rightEdge = sectionWidth * 1.65;
+
+      if (carousel.scrollLeft < leftEdge) {
+        isAdjusting = true;
+        carousel.scrollLeft += sectionWidth;
+        requestAnimationFrame(() => {
+          isAdjusting = false;
+        });
+      } else if (carousel.scrollLeft > rightEdge) {
+        isAdjusting = true;
+        carousel.scrollLeft -= sectionWidth;
+        requestAnimationFrame(() => {
+          isAdjusting = false;
+        });
+      }
+    }, { passive: true });
+  });
+}
+
 render("sorbets", sorbets);
 render("gelatos", gelatos);
+initInfiniteCarousels();

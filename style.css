@@ -8,31 +8,33 @@ body {
 .container {
   max-width: 400px;
   margin: auto;
-  padding: 10px 10px 16px;
+  padding: 12px 12px 18px;
 }
 
 .brand-banner {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .brand-banner img {
   width: 100%;
   display: block;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .section-main-title {
   text-align: center;
-  margin: 0 0 12px;
+  margin: 2px 0 14px;
   font-size: 18px;
   font-weight: 700;
   color: #fff7f0;
+  letter-spacing: 0.01em;
 }
 
 h3 {
-  margin: 12px 2px 8px;
+  margin: 14px 2px 10px;
   font-size: 14px;
   color: #f3e4d8;
+  letter-spacing: 0.02em;
 }
 
 /* GRID */
@@ -45,7 +47,7 @@ h3 {
 /* TARJETA */
 .card {
   perspective: 1200px;
-  height: 168px;
+  height: 172px;
 }
 
 .card-inner {
@@ -69,19 +71,20 @@ h3 {
   width: 100%;
   height: 100%;
   background: #6a3f2b;
-  border-radius: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 247, 240, 0.10);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   box-sizing: border-box;
   overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
 }
 
 /* FRENTE */
 .card-front {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 6px;
 }
 
 .image-wrap {
@@ -99,7 +102,7 @@ h3 {
   object-position: center top;
   display: block;
   border-radius: 12px;
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 }
 
 .front-bottom {
@@ -107,14 +110,14 @@ h3 {
   align-items: center;
   justify-content: center;
   position: relative;
-  min-height: 24px;
-  padding-top: 2px;
+  min-height: 26px;
+  padding-top: 4px;
 }
 
 .front-title {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.05;
   text-align: center;
   color: #fff7f0;
 }
@@ -122,12 +125,12 @@ h3 {
 /* icono de giro muy sutil */
 .flip-hint {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 1px;
+  bottom: 1px;
   font-size: 10px;
   line-height: 1;
   color: rgba(255, 247, 240, 0.24);
-  opacity: 0.35;
+  opacity: 0.4;
   user-select: none;
 }
 
@@ -136,7 +139,7 @@ h3 {
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  padding: 8px;
+  padding: 9px;
   color: #fff7f0;
 }
 
@@ -145,20 +148,20 @@ h3 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 6px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .card-back h4 {
   margin: 0;
   font-size: 13px;
-  line-height: 1.05;
+  line-height: 1.12;
   text-align: left;
   color: #fff7f0;
 }
 
 .back-flip {
   font-size: 10px;
-  opacity: 0.22;
+  opacity: 0.24;
   line-height: 1;
   user-select: none;
   flex-shrink: 0;
@@ -167,11 +170,11 @@ h3 {
 
 .card-back p {
   font-size: 9px;
-  line-height: 1.22;
-  margin: 0 0 6px;
+  line-height: 1.3;
+  margin: 0 0 7px;
   color: #f6e7dd;
   text-align: left;
-  min-height: 34px;
+  min-height: 36px;
 }
 
 /* ALÉRGENOS */
@@ -181,9 +184,9 @@ h3 {
 
 .allergen-title {
   font-size: 8px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  opacity: 0.68;
+  opacity: 0.7;
   margin-bottom: 4px;
   text-align: left;
 }
@@ -218,6 +221,7 @@ h3 {
   margin-top: auto;
   color: #f6e7dd;
 }
+
 /* =========================
    HOME
 ========================= */
@@ -244,6 +248,7 @@ h3 {
   overflow: hidden;
   border: 1px solid rgba(255, 247, 240, 0.12);
   background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
 }
 
 .hero-image img {
@@ -253,7 +258,7 @@ h3 {
 }
 
 .hero-subtitle {
-  margin: 12px 0 10px;
+  margin: 14px 0 10px;
   font-size: 16px;
   font-weight: 600;
   color: #f3dfcf;
@@ -262,7 +267,7 @@ h3 {
 
 .hero-highlight {
   margin: 0 auto 16px;
-  min-height: 44px;
+  min-height: 46px;
   padding: 10px 16px;
   border-radius: 14px;
   background: rgba(255, 247, 240, 0.10);
@@ -277,7 +282,7 @@ h3 {
 }
 
 .home-actions {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .home-main-button,
@@ -290,7 +295,8 @@ h3 {
   text-decoration: none;
   border-radius: 16px;
   font-weight: 700;
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  transition: transform 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+  box-sizing: border-box;
 }
 
 .home-main-button:hover,
@@ -308,6 +314,7 @@ h3 {
   border: 1px solid rgba(255, 247, 240, 0.12);
   font-size: 17px;
   margin-bottom: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
 .home-grid-buttons {
@@ -333,6 +340,7 @@ h3 {
   color: #2b1f1a;
   border: none;
   font-size: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* =========================
@@ -353,6 +361,7 @@ h3 {
   border-radius: 18px;
   padding: 14px;
   margin-bottom: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
 }
 
 .step-number {
@@ -367,18 +376,18 @@ h3 {
   font-size: 21px;
   font-weight: 800;
   color: #fff7f0;
-  margin-bottom: 10px;
-  line-height: 1.1;
+  margin-bottom: 12px;
+  line-height: 1.12;
 }
 
 .step-text {
   font-size: 14px;
   color: #f6e7dd;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 .step-text-bottom {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 0;
 }
 
@@ -490,7 +499,7 @@ h3 {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 4px 2px 2px;
+  padding: 4px 2px 4px;
   scroll-snap-type: x proximity;
   -webkit-overflow-scrolling: touch;
 }
@@ -516,6 +525,7 @@ h3 {
   overflow: hidden;
   background: rgba(255, 247, 240, 0.07);
   border: 1px solid rgba(255, 247, 240, 0.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
 }
 
 .mini-image-wrap img {
@@ -527,12 +537,12 @@ h3 {
 }
 
 .mini-title {
-  margin-top: 6px;
+  margin-top: 7px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
   color: #fff7f0;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 /* tamaños */
@@ -551,17 +561,87 @@ h3 {
 
 /* toppings */
 .topping-card-mini {
-  flex-basis: 105px;
+  flex-basis: 108px;
 }
 
 .topping-image-wrap {
-  height: 88px;
-  padding: 6px;
-  background: rgba(255, 247, 240, 0.04);
+  height: 92px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .topping-image-wrap img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   object-position: center;
+  display: block;
   background: transparent;
+  transform: scale(1.04);
+}
+
+/* =========================
+   AJUSTES FINOS COMO FUNCIONA
+========================= */
+
+.section-page-title {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-title {
+  text-wrap: balance;
+}
+
+.step-text-bottom {
+  text-align: center;
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-text-soft {
+  text-align: center;
+  max-width: 90%;
+  margin: 8px auto 0;
+  font-size: 13px;
+  line-height: 1.35;
+  color: #f3dfcf;
+  opacity: 0.92;
+}
+
+.step-feature-image {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 2px;
+  background: rgba(255, 247, 240, 0.05);
+  border: 1px solid rgba(255, 247, 240, 0.08);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
+}
+
+.step-feature-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* =========================
+   CARRUSEL CÍCLICO
+========================= */
+
+.infinite-carousel {
+  scroll-behavior: smooth;
+}
+
+.infinite-carousel.is-ready {
+  cursor: grab;
+}
+
+.infinite-carousel.is-ready:active {
+  cursor: grabbing;
 }
