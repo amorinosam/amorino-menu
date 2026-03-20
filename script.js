@@ -46,7 +46,8 @@ const uiText = {
       backToMenu: "Volver al menú",
       flavors: "Sabores",
       otherProducts: "Otros productos",
-      review: "Dejar reseña"
+      review: "Dejar reseña",
+      reviewGoogle: "Valóranos en",
     },
     miniFlavors: {
       pistachio: "Pistacho",
@@ -122,7 +123,8 @@ const uiText = {
       backToMenu: "Voltar ao menu",
       flavors: "Sabores",
       otherProducts: "Outros produtos",
-      review: "Deixar avaliação"
+      review: "Deixar avaliação",
+      reviewGoogle: "Avalia-nos no",
     },
     miniFlavors: {
       pistachio: "Pistácio",
@@ -198,7 +200,8 @@ const uiText = {
       backToMenu: "Back to menu",
       flavors: "Flavors",
       otherProducts: "Other products",
-      review: "Leave a review"
+      review: "Leave a review",
+      reviewGoogle: "Rate us on",
     },
     miniFlavors: {
       pistachio: "Pistachio",
@@ -274,7 +277,8 @@ const uiText = {
       backToMenu: "Torna al menu",
       flavors: "Gusti",
       otherProducts: "Altri prodotti",
-      review: "Lascia una recensione"
+      review: "Lascia una recensione",
+      reviewGoogle: "Valutaci su",
     },
     miniFlavors: {
       pistachio: "Pistacchio",
@@ -350,7 +354,8 @@ const uiText = {
       backToMenu: "Retour au menu",
       flavors: "Parfums",
       otherProducts: "Autres produits",
-      review: "Laisser un avis"
+      review: "Laisser un avis",
+      reviewGoogle: "Notez-nous sur",
     },
     miniFlavors: {
       pistachio: "Pistache",
