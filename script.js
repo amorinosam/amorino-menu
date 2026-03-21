@@ -11,14 +11,15 @@ const locale = getLocale();
 const uiText = {
   es: {
     home: {
-      heroTitle: "Todos nuestros conos<br>son una flor",
-      heroSubtitle: "Puedes incluir todos los sabores que quieras",
-      heroHighlight: "SABORES ILIMITADOS",
-      howItWorks: "Cómo funciona",
-      flavors: "Sabores",
-      otherProducts: "Otros productos",
-      review: "Dejar reseña"
-    },
+  heroTitle: "Todos nuestros conos<br>son una flor",
+  heroSubtitle: "Puedes incluir todos los sabores que quieras",
+  howItWorks: "Cómo funciona",
+  flavors: "Sabores",
+  otherProducts: "Otros productos",
+  review: "Dejar reseña",
+  serviceNoteTitle: "Tu experiencia comienza en el mostrador",
+  serviceNoteText: "Descubre nuestros sabores y opciones antes de pedir"
+},
     flavorsPage: {
       mainTitle: "Nuestros sabores",
       sorbets: "SORBETS",
@@ -88,14 +89,15 @@ const uiText = {
 
   pt: {
     home: {
-      heroTitle: "Todos os nossos cones<br>são uma flor",
-      heroSubtitle: "Pode incluir todos os sabores que quiser",
-      heroHighlight: "SABORES ILIMITADOS",
-      howItWorks: "Como funciona",
-      flavors: "Sabores",
-      otherProducts: "Outros produtos",
-      review: "Deixar avaliação"
-    },
+  heroTitle: "Todos os nossos cones<br>são uma flor",
+  heroSubtitle: "Pode incluir todos os sabores que quiser",
+  howItWorks: "Como funciona",
+  flavors: "Sabores",
+  otherProducts: "Outros produtos",
+  review: "Deixar avaliação",
+  serviceNoteTitle: "A tua experiência começa ao balcão",
+  serviceNoteText: "Descobre os nossos sabores e opções antes de pedir"
+},
     flavorsPage: {
       mainTitle: "Os nossos sabores",
       sorbets: "SORBETS",
@@ -165,14 +167,15 @@ const uiText = {
 
   en: {
     home: {
-      heroTitle: "All our cones<br>are shaped like a flower",
-      heroSubtitle: "You can include as many flavors as you want",
-      heroHighlight: "UNLIMITED FLAVORS",
-      howItWorks: "How it works",
-      flavors: "Flavors",
-      otherProducts: "Other products",
-      review: "Leave a review"
-    },
+  heroTitle: "All our cones<br>are shaped like a flower",
+  heroSubtitle: "You can include as many flavors as you want",
+  howItWorks: "How it works",
+  flavors: "Flavors",
+  otherProducts: "Other products",
+  review: "Leave a review",
+  serviceNoteTitle: "Your experience begins at the counter",
+  serviceNoteText: "Discover our flavors and options before ordering"
+},
     flavorsPage: {
       mainTitle: "Our flavors",
       sorbets: "SORBETS",
@@ -242,14 +245,15 @@ const uiText = {
 
   it: {
     home: {
-      heroTitle: "Tutti i nostri coni<br>sono un fiore",
-      heroSubtitle: "Puoi includere tutti i gusti che vuoi",
-      heroHighlight: "GUSTI ILLIMITATI",
-      howItWorks: "Come funziona",
-      flavors: "Gusti",
-      otherProducts: "Altri prodotti",
-      review: "Lascia una recensione"
-    },
+  heroTitle: "Tutti i nostri coni<br>sono un fiore",
+  heroSubtitle: "Puoi includere tutti i gusti che vuoi",
+  howItWorks: "Come funziona",
+  flavors: "Gusti",
+  otherProducts: "Altri prodotti",
+  review: "Lascia una recensione",
+  serviceNoteTitle: "La tua esperienza inizia al banco",
+  serviceNoteText: "Scopri i nostri gusti e le nostre opzioni prima di ordinare"
+},
     flavorsPage: {
       mainTitle: "I nostri gusti",
       sorbets: "SORBETTI",
@@ -319,14 +323,15 @@ const uiText = {
 
   fr: {
     home: {
-      heroTitle: "Tous nos cornets<br>sont une fleur",
-      heroSubtitle: "Vous pouvez inclure tous les parfums que vous voulez",
-      heroHighlight: "PARFUMS ILLIMITÉS",
-      howItWorks: "Comment ça marche",
-      flavors: "Parfums",
-      otherProducts: "Autres produits",
-      review: "Laisser un avis"
-    },
+  heroTitle: "Tous nos cornets<br>sont une fleur",
+  heroSubtitle: "Vous pouvez inclure tous les parfums que vous voulez",
+  howItWorks: "Comment ça marche",
+  flavors: "Parfums",
+  otherProducts: "Autres produits",
+  review: "Laisser un avis",
+  serviceNoteTitle: "Votre expérience commence au comptoir",
+  serviceNoteText: "Découvrez nos parfums et options avant de commander"
+},
     flavorsPage: {
       mainTitle: "Nos parfums",
       sorbets: "SORBETS",
