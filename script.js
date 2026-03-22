@@ -15,7 +15,7 @@ const uiText = {
   heroSubtitle: "Puedes incluir todos los sabores que quieras",
   howItWorks: "Cómo funciona",
   flavors: "Sabores",
-  otherProducts: "Otros productos",
+  otherProducts: "Nuestros productos",
   review: "Dejar reseña",
   reviewHelp: "Tu opinión nos ayuda mucho",
   reviewGoogle: "Valóranos en",
@@ -87,7 +87,48 @@ const uiText = {
       milk: "Leche",
       soy: "Soja",
       peanut: "Maní"
-    }
+    },
+    productsPage: {
+  pageTitle: "Nuestros productos",
+  noteText: "Descubre qué puedes disfrutar y haz tu pedido en el mostrador.",
+
+  coffeeTitle: "Cafetería",
+  espresso: "Espresso",
+  americano: "Americano",
+  latte: "Latte",
+  cappuccino: "Cappuccino",
+  hotChocolate: "Chocolate caliente",
+  tea: "Té",
+
+  crepesTitle: "Crepes y waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
+
+  specialsTitle: "Especiales",
+  affogato: "Affogato",
+  affogatoChocolate: "Affogato chocolate",
+  affogatoGourmet: "Affogato gourmet",
+  copoGourmet: "Copo gourmet",
+  latteGourmet: "Latte gourmet",
+
+  coldDrinksTitle: "Bebidas frías",
+  frappe: "Frappé",
+  milkshake: "Batido",
+
+  takeAwayTitle: "Macarons y envasados para casa o para llevar",
+  macaronsLarge: "Macarons grandes",
+  macaronsSmall: "Macarons pequeños",
+  macaronsBox12: "Caja x12 macarons",
+  box550: "Caja 550 ml",
+  box1100: "Caja 1100 ml",
+  waferGianduja: "Wafer Gianduja x4",
+  largeTin: "Lata grande",
+
+  reviewGoogle: "Valóranos en",
+  backToMenu: "Volver al menú"
+},
+    
   },
 
   pt: {
@@ -96,7 +137,7 @@ const uiText = {
   heroSubtitle: "Pode incluir todos os sabores que quiser",
   howItWorks: "Como funciona",
   flavors: "Sabores",
-  otherProducts: "Outros produtos",
+  otherProducts: "Os nossos produtos",
   review: "Deixar avaliação",
   reviewHelp: "A tua opinião ajuda-nos muito",
   reviewGoogle: "Avalia-nos no",
@@ -168,7 +209,47 @@ const uiText = {
       milk: "Leite",
       soy: "Soja",
       peanut: "Amendoim"
-    }
+    },
+    productsPage: {
+  pageTitle: "Os nossos produtos",
+  noteText: "Descobre o que podes saborear e faz o teu pedido ao balcão.",
+
+  coffeeTitle: "Cafetaria",
+  espresso: "Espresso",
+  americano: "Americano",
+  latte: "Latte",
+  cappuccino: "Cappuccino",
+  hotChocolate: "Chocolate quente",
+  tea: "Chá",
+
+  crepesTitle: "Crepes e waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
+
+  specialsTitle: "Especiais",
+  affogato: "Affogato",
+  affogatoChocolate: "Affogato de chocolate",
+  affogatoGourmet: "Affogato gourmet",
+  copoGourmet: "Copo gourmet",
+  latteGourmet: "Latte gourmet",
+
+  coldDrinksTitle: "Bebidas frias",
+  frappe: "Frappé",
+  milkshake: "Batido",
+
+  takeAwayTitle: "Macarons e embalados para casa ou takeaway",
+  macaronsLarge: "Macarons grandes",
+  macaronsSmall: "Macarons pequenos",
+  macaronsBox12: "Caixa x12 macarons",
+  box550: "Caixa 550 ml",
+  box1100: "Caixa 1100 ml",
+  waferGianduja: "Wafer Gianduja x4",
+  largeTin: "Lata grande",
+
+  reviewGoogle: "Avalia-nos no",
+  backToMenu: "Voltar ao menu"
+},
   },
 
   en: {
@@ -177,7 +258,7 @@ const uiText = {
   heroSubtitle: "You can include as many flavors as you want",
   howItWorks: "How it works",
   flavors: "Flavors",
-  otherProducts: "Other products",
+  otherProducts: "Our products",
   review: "Leave a review",
   reviewHelp: "Your opinion helps us a lot",
   reviewGoogle: "Rate us on",
@@ -249,7 +330,47 @@ const uiText = {
       milk: "Milk",
       soy: "Soy",
       peanut: "Peanut"
-    }
+    },
+    productsPage: {
+  pageTitle: "Our products",
+  noteText: "Discover what you can enjoy and place your order at the counter.",
+
+  coffeeTitle: "Coffee",
+  espresso: "Espresso",
+  americano: "Americano",
+  latte: "Latte",
+  cappuccino: "Cappuccino",
+  hotChocolate: "Hot chocolate",
+  tea: "Tea",
+
+  crepesTitle: "Crepes and waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
+
+  specialsTitle: "Specials",
+  affogato: "Affogato",
+  affogatoChocolate: "Chocolate affogato",
+  affogatoGourmet: "Gourmet affogato",
+  copoGourmet: "Gourmet cup",
+  latteGourmet: "Gourmet latte",
+
+  coldDrinksTitle: "Cold drinks",
+  frappe: "Frappe",
+  milkshake: "Milkshake",
+
+  takeAwayTitle: "Macarons and packaged items for home or takeaway",
+  macaronsLarge: "Large macarons",
+  macaronsSmall: "Small macarons",
+  macaronsBox12: "Box of 12 macarons",
+  box550: "550 ml box",
+  box1100: "1100 ml box",
+  waferGianduja: "Gianduja wafer x4",
+  largeTin: "Large tin",
+
+  reviewGoogle: "Rate us on",
+  backToMenu: "Back to menu"
+},
   },
 
   it: {
@@ -258,7 +379,7 @@ const uiText = {
   heroSubtitle: "Puoi includere tutti i gusti che vuoi",
   howItWorks: "Come funziona",
   flavors: "Gusti",
-  otherProducts: "Altri prodotti",
+  otherProducts: "I nostri prodotti",
   review: "Lascia una recensione",
   reviewHelp: "La tua opinione ci aiuta molto",
   reviewGoogle: "Valutaci su",
@@ -330,7 +451,47 @@ const uiText = {
       milk: "Latte",
       soy: "Soia",
       peanut: "Arachidi"
-    }
+    },
+    productsPage: {
+  pageTitle: "I nostri prodotti",
+  noteText: "Scopri cosa puoi gustare e fai il tuo ordine al banco.",
+
+  coffeeTitle: "Caffetteria",
+  espresso: "Espresso",
+  americano: "Americano",
+  latte: "Latte",
+  cappuccino: "Cappuccino",
+  hotChocolate: "Cioccolata calda",
+  tea: "Tè",
+
+  crepesTitle: "Crepes e waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
+
+  specialsTitle: "Speciali",
+  affogato: "Affogato",
+  affogatoChocolate: "Affogato al cioccolato",
+  affogatoGourmet: "Affogato gourmet",
+  copoGourmet: "Coppa gourmet",
+  latteGourmet: "Latte gourmet",
+
+  coldDrinksTitle: "Bevande fredde",
+  frappe: "Frappé",
+  milkshake: "Milkshake",
+
+  takeAwayTitle: "Macaron e confezionati da portare a casa o via",
+  macaronsLarge: "Macaron grandi",
+  macaronsSmall: "Macaron piccoli",
+  macaronsBox12: "Scatola da 12 macaron",
+  box550: "Scatola 550 ml",
+  box1100: "Scatola 1100 ml",
+  waferGianduja: "Wafer Gianduja x4",
+  largeTin: "Latta grande",
+
+  reviewGoogle: "Valutaci su",
+  backToMenu: "Torna al menu"
+},
   },
 
   fr: {
@@ -339,7 +500,7 @@ const uiText = {
   heroSubtitle: "Vous pouvez inclure tous les parfums que vous voulez",
   howItWorks: "Comment ça marche",
   flavors: "Parfums",
-  otherProducts: "Autres produits",
+  otherProducts: "Nos produits",
   review: "Laisser un avis",
   reviewHelp: "Votre avis nous aide beaucoup",
   reviewGoogle: "Notez-nous sur",
@@ -411,7 +572,47 @@ const uiText = {
       milk: "Lait",
       soy: "Soja",
       peanut: "Cacahuète"
-    }
+    },
+    productsPage: {
+  pageTitle: "Nos produits",
+  noteText: "Découvrez ce que vous pouvez savourer et passez votre commande au comptoir.",
+
+  coffeeTitle: "Café",
+  espresso: "Espresso",
+  americano: "Americano",
+  latte: "Latte",
+  cappuccino: "Cappuccino",
+  hotChocolate: "Chocolat chaud",
+  tea: "Thé",
+
+  crepesTitle: "Crêpes et waffles",
+  crepe: "Crêpe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
+
+  specialsTitle: "Spéciaux",
+  affogato: "Affogato",
+  affogatoChocolate: "Affogato chocolat",
+  affogatoGourmet: "Affogato gourmet",
+  copoGourmet: "Coupe gourmet",
+  latteGourmet: "Latte gourmet",
+
+  coldDrinksTitle: "Boissons froides",
+  frappe: "Frappé",
+  milkshake: "Milkshake",
+
+  takeAwayTitle: "Macarons et produits emballés pour la maison ou à emporter",
+  macaronsLarge: "Grands macarons",
+  macaronsSmall: "Petits macarons",
+  macaronsBox12: "Boîte de 12 macarons",
+  box550: "Boîte 550 ml",
+  box1100: "Boîte 1100 ml",
+  waferGianduja: "Wafer Gianduja x4",
+  largeTin: "Grande boîte",
+
+  reviewGoogle: "Notez-nous sur",
+  backToMenu: "Retour au menu"
+},
   }
 };
 
