@@ -20,7 +20,7 @@ const uiText = {
   reviewHelp: "Tu opinión nos ayuda mucho",
   reviewGoogle: "Valóranos en",
   serviceNoteTitle: "Tu experiencia comienza en el mostrador",
-  serviceNoteText: "Descubre nuestros sabores y opciones antes de pedir"
+  serviceNoteText: "Descubre qué vas a disfrutar y haz tu pedido en el mostrador."
 },
     flavorsPage: {
   mainTitle: "Nuestros sabores",
@@ -54,6 +54,10 @@ const uiText = {
   reviewGoogle: "Valóranos en"
 },
     miniFlavors: {
+      coffeeCreamAmaretti: "Crema de café y amaretti",
+redBerries: "Frutos rojos",
+fiorDiLatteExotic: "Flor de leche y frutas exóticas",
+blueberryCheesecake: "Blueberry cheesecake",
       pistachio: "Pistacho",
       mango: "Mango",
       strawberry: "Frutilla",
@@ -90,7 +94,12 @@ const uiText = {
     },
     productsPage: {
   pageTitle: "Nuestros productos",
-  noteText: "Descubre qué puedes disfrutar y haz tu pedido en el mostrador.",
+  noteText: "Descubre qué vas a disfrutar y haz tu pedido en el mostrador.",
+
+  crepesTitle: "Crepes y waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
 
   coffeeTitle: "Cafetería",
   espresso: "Espresso",
@@ -100,28 +109,25 @@ const uiText = {
   hotChocolate: "Chocolate caliente",
   tea: "Té",
 
-  crepesTitle: "Crepes y waffles",
-  crepe: "Crepe",
-  waffles: "Waffles",
-  waffleSticks: "Waffle sticks",
-
   specialsTitle: "Especiales",
   affogato: "Affogato",
   affogatoChocolate: "Affogato chocolate",
   affogatoGourmet: "Affogato gourmet",
   copoGourmet: "Copo gourmet",
   latteGourmet: "Latte gourmet",
+  espressoFrappe: "Espresso frappé",
 
   coldDrinksTitle: "Bebidas frías",
   frappe: "Frappé",
   milkshake: "Batido",
+  sorbetDrink: "Bebida sorvete",
+  veganShake: "Vegan shake",
 
   takeAwayTitle: "Macarons y envasados para casa o para llevar",
   macaronsLarge: "Macarons grandes",
   macaronsSmall: "Macarons pequeños",
   macaronsBox12: "Caja x12 macarons",
-  box550: "Caja 550 ml",
-  box1100: "Caja 1100 ml",
+  takeAwayBoxes: "Cajas 550 y 1100 ml",
   waferGianduja: "Wafer Gianduja x4",
   largeTin: "Lata grande",
 
@@ -142,7 +148,7 @@ const uiText = {
   reviewHelp: "A tua opinião ajuda-nos muito",
   reviewGoogle: "Avalia-nos no",
   serviceNoteTitle: "A tua experiência começa ao balcão",
-  serviceNoteText: "Descobre os nossos sabores e opções antes de pedir"
+  serviceNoteText: "Descobre o que vais saborear e faz o teu pedido ao balcão."
 },
     flavorsPage: {
   mainTitle: "Os nossos sabores",
@@ -176,6 +182,10 @@ const uiText = {
   reviewGoogle: "Avalia-nos no"
 },
     miniFlavors: {
+      coffeeCreamAmaretti: "Crema de café e amaretti",
+redBerries: "Frutos vermelhos",
+fiorDiLatteExotic: "Fior di latte e frutas exóticas",
+blueberryCheesecake: "Blueberry cheesecake",
       pistachio: "Pistácio",
       mango: "Manga",
       strawberry: "Morango",
@@ -212,7 +222,12 @@ const uiText = {
     },
     productsPage: {
   pageTitle: "Os nossos produtos",
-  noteText: "Descobre o que podes saborear e faz o teu pedido ao balcão.",
+  noteText: "Descobre o que vais saborear e faz o teu pedido ao balcão.",
+
+  crepesTitle: "Crepes e waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
 
   coffeeTitle: "Cafetaria",
   espresso: "Espresso",
@@ -222,28 +237,25 @@ const uiText = {
   hotChocolate: "Chocolate quente",
   tea: "Chá",
 
-  crepesTitle: "Crepes e waffles",
-  crepe: "Crepe",
-  waffles: "Waffles",
-  waffleSticks: "Waffle sticks",
-
   specialsTitle: "Especiais",
   affogato: "Affogato",
   affogatoChocolate: "Affogato de chocolate",
   affogatoGourmet: "Affogato gourmet",
   copoGourmet: "Copo gourmet",
   latteGourmet: "Latte gourmet",
+  espressoFrappe: "Espresso frappé",
 
   coldDrinksTitle: "Bebidas frias",
   frappe: "Frappé",
   milkshake: "Batido",
+  sorbetDrink: "Bebida sorvete",
+  veganShake: "Vegan shake",
 
   takeAwayTitle: "Macarons e embalados para casa ou takeaway",
   macaronsLarge: "Macarons grandes",
   macaronsSmall: "Macarons pequenos",
   macaronsBox12: "Caixa x12 macarons",
-  box550: "Caixa 550 ml",
-  box1100: "Caixa 1100 ml",
+  takeAwayBoxes: "Caixas 550 e 1100 ml",
   waferGianduja: "Wafer Gianduja x4",
   largeTin: "Lata grande",
 
@@ -263,7 +275,7 @@ const uiText = {
   reviewHelp: "Your opinion helps us a lot",
   reviewGoogle: "Rate us on",
   serviceNoteTitle: "Your experience begins at the counter",
-  serviceNoteText: "Discover our flavors and options before ordering"
+  serviceNoteText: "Discover what you would like to enjoy and place your order at the counter."
 },
     flavorsPage: {
   mainTitle: "Our flavors",
@@ -297,6 +309,10 @@ const uiText = {
   reviewGoogle: "Rate us on"
 },
     miniFlavors: {
+      coffeeCreamAmaretti: "Coffee cream & amaretti",
+redBerries: "Red berries",
+fiorDiLatteExotic: "Fior di latte & exotic fruits",
+blueberryCheesecake: "Blueberry cheesecake",
       pistachio: "Pistachio",
       mango: "Mango",
       strawberry: "Strawberry",
@@ -333,7 +349,12 @@ const uiText = {
     },
     productsPage: {
   pageTitle: "Our products",
-  noteText: "Discover what you can enjoy and place your order at the counter.",
+  noteText: "Discover what you would like to enjoy and place your order at the counter.",
+
+  crepesTitle: "Crepes and waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
 
   coffeeTitle: "Coffee",
   espresso: "Espresso",
@@ -343,28 +364,25 @@ const uiText = {
   hotChocolate: "Hot chocolate",
   tea: "Tea",
 
-  crepesTitle: "Crepes and waffles",
-  crepe: "Crepe",
-  waffles: "Waffles",
-  waffleSticks: "Waffle sticks",
-
   specialsTitle: "Specials",
   affogato: "Affogato",
   affogatoChocolate: "Chocolate affogato",
   affogatoGourmet: "Gourmet affogato",
   copoGourmet: "Gourmet cup",
   latteGourmet: "Gourmet latte",
+  espressoFrappe: "Espresso frappe",
 
   coldDrinksTitle: "Cold drinks",
   frappe: "Frappe",
   milkshake: "Milkshake",
+  sorbetDrink: "Sorbet drink",
+  veganShake: "Vegan shake",
 
   takeAwayTitle: "Macarons and packaged items for home or takeaway",
   macaronsLarge: "Large macarons",
   macaronsSmall: "Small macarons",
   macaronsBox12: "Box of 12 macarons",
-  box550: "550 ml box",
-  box1100: "1100 ml box",
+  takeAwayBoxes: "550 and 1100 ml boxes",
   waferGianduja: "Gianduja wafer x4",
   largeTin: "Large tin",
 
@@ -384,7 +402,7 @@ const uiText = {
   reviewHelp: "La tua opinione ci aiuta molto",
   reviewGoogle: "Valutaci su",
   serviceNoteTitle: "La tua esperienza inizia al banco",
-  serviceNoteText: "Scopri i nostri gusti e le nostre opzioni prima di ordinare"
+  serviceNoteText: "Scopri cosa ti va di gustare e fai il tuo ordine al banco."
 },
     flavorsPage: {
   mainTitle: "I nostri gusti",
@@ -418,6 +436,10 @@ const uiText = {
   reviewGoogle: "Valutaci su"
 },
     miniFlavors: {
+      coffeeCreamAmaretti: "Crema di caffè e amaretti",
+redBerries: "Frutti rossi",
+fiorDiLatteExotic: "Fior di latte e frutti esotici",
+blueberryCheesecake: "Blueberry cheesecake",
       pistachio: "Pistacchio",
       mango: "Mango",
       strawberry: "Fragola",
@@ -454,7 +476,12 @@ const uiText = {
     },
     productsPage: {
   pageTitle: "I nostri prodotti",
-  noteText: "Scopri cosa puoi gustare e fai il tuo ordine al banco.",
+  noteText: "Scopri cosa ti va di gustare e fai il tuo ordine al banco.",
+
+  crepesTitle: "Crepes e waffles",
+  crepe: "Crepe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
 
   coffeeTitle: "Caffetteria",
   espresso: "Espresso",
@@ -464,28 +491,25 @@ const uiText = {
   hotChocolate: "Cioccolata calda",
   tea: "Tè",
 
-  crepesTitle: "Crepes e waffles",
-  crepe: "Crepe",
-  waffles: "Waffles",
-  waffleSticks: "Waffle sticks",
-
   specialsTitle: "Speciali",
   affogato: "Affogato",
   affogatoChocolate: "Affogato al cioccolato",
   affogatoGourmet: "Affogato gourmet",
   copoGourmet: "Coppa gourmet",
   latteGourmet: "Latte gourmet",
+  espressoFrappe: "Espresso frappé",
 
   coldDrinksTitle: "Bevande fredde",
   frappe: "Frappé",
   milkshake: "Milkshake",
+  sorbetDrink: "Bevanda sorbetto",
+  veganShake: "Vegan shake",
 
   takeAwayTitle: "Macaron e confezionati da portare a casa o via",
   macaronsLarge: "Macaron grandi",
   macaronsSmall: "Macaron piccoli",
   macaronsBox12: "Scatola da 12 macaron",
-  box550: "Scatola 550 ml",
-  box1100: "Scatola 1100 ml",
+  takeAwayBoxes: "Scatole 550 e 1100 ml",
   waferGianduja: "Wafer Gianduja x4",
   largeTin: "Latta grande",
 
@@ -505,7 +529,7 @@ const uiText = {
   reviewHelp: "Votre avis nous aide beaucoup",
   reviewGoogle: "Notez-nous sur",
   serviceNoteTitle: "Votre expérience commence au comptoir",
-  serviceNoteText: "Découvrez nos parfums et options avant de commander"
+  serviceNoteText: "Découvrez ce que vous allez savourer et passez votre commande au comptoir."
 },
     flavorsPage: {
   mainTitle: "Nos parfums",
@@ -539,6 +563,10 @@ const uiText = {
   reviewGoogle: "Notez-nous sur"
 },
     miniFlavors: {
+      coffeeCreamAmaretti: "Crème de café et amaretti",
+redBerries: "Fruits rouges",
+fiorDiLatteExotic: "Fior di latte et fruits exotiques",
+blueberryCheesecake: "Blueberry cheesecake",
       pistachio: "Pistache",
       mango: "Mangue",
       strawberry: "Fraise",
@@ -575,7 +603,12 @@ const uiText = {
     },
     productsPage: {
   pageTitle: "Nos produits",
-  noteText: "Découvrez ce que vous pouvez savourer et passez votre commande au comptoir.",
+  noteText: "Découvrez ce que vous allez savourer et passez votre commande au comptoir.",
+
+  crepesTitle: "Crêpes et waffles",
+  crepe: "Crêpe",
+  waffles: "Waffles",
+  waffleSticks: "Waffle sticks",
 
   coffeeTitle: "Café",
   espresso: "Espresso",
@@ -585,28 +618,25 @@ const uiText = {
   hotChocolate: "Chocolat chaud",
   tea: "Thé",
 
-  crepesTitle: "Crêpes et waffles",
-  crepe: "Crêpe",
-  waffles: "Waffles",
-  waffleSticks: "Waffle sticks",
-
   specialsTitle: "Spéciaux",
   affogato: "Affogato",
   affogatoChocolate: "Affogato chocolat",
   affogatoGourmet: "Affogato gourmet",
   copoGourmet: "Coupe gourmet",
   latteGourmet: "Latte gourmet",
+  espressoFrappe: "Espresso frappé",
 
   coldDrinksTitle: "Boissons froides",
   frappe: "Frappé",
   milkshake: "Milkshake",
+  sorbetDrink: "Boisson sorbet",
+  veganShake: "Vegan shake",
 
   takeAwayTitle: "Macarons et produits emballés pour la maison ou à emporter",
   macaronsLarge: "Grands macarons",
   macaronsSmall: "Petits macarons",
   macaronsBox12: "Boîte de 12 macarons",
-  box550: "Boîte 550 ml",
-  box1100: "Boîte 1100 ml",
+  takeAwayBoxes: "Boîtes 550 et 1100 ml",
   waferGianduja: "Wafer Gianduja x4",
   largeTin: "Grande boîte",
 
@@ -657,6 +687,24 @@ const allergenMeta = {
 };
 
 const sorbets = [
+  {
+  name: {
+    es: "Frutos rojos",
+    pt: "Frutos vermelhos",
+    en: "Red Berries",
+    it: "Frutti rossi",
+    fr: "Fruits rouges"
+  },
+  image: "imagenes/red_berries.jpg",
+  desc: {
+    es: "Sorbete de frutos rojos, vibrante y refrescante.",
+    pt: "Sorbet de frutos vermelhos, vibrante e refrescante.",
+    en: "Red berries sorbet, vibrant and refreshing.",
+    it: "Sorbetto ai frutti rossi, vivace e rinfrescante.",
+    fr: "Sorbet fruits rouges, vif et rafraîchissant."
+  },
+  allergens: []
+},
   {
     name: {
       es: "Mango",
@@ -804,6 +852,60 @@ const sorbets = [
 ];
 
 const gelatos = [
+  {
+  name: {
+    es: "Crema de café y biscotti amaretti",
+    pt: "Crema de café e biscotti amaretti",
+    en: "Coffee cream & amaretti biscotti",
+    it: "Crema di caffè & biscotti amaretti",
+    fr: "Crème de café & biscotti amaretti"
+  },
+  image: "imagenes/crema_caffe_amaretti.jpg",
+  desc: {
+    es: "Gelato cremoso de café con notas delicadas de amaretti.",
+    pt: "Gelato cremoso de café com delicadas notas de amaretti.",
+    en: "Creamy coffee gelato with delicate amaretti notes.",
+    it: "Gelato cremoso al caffè con delicate note di amaretti.",
+    fr: "Gelato crémeux au café avec de délicates notes d’amaretti."
+  },
+  allergens: ["soja", "huevos", "leche"]
+},
+{
+  name: {
+    es: "Flor de leche y frutas exóticas",
+    pt: "Fior di latte e frutas exóticas",
+    en: "Fior di latte & exotic fruits",
+    it: "Fior di latte & exotic fruits",
+    fr: "Fior di latte & fruits exotiques"
+  },
+  image: "imagenes/fior_latte_exotic_fruits.jpg",
+  desc: {
+    es: "Gelato suave de flor de leche con un toque frutal exótico.",
+    pt: "Gelato suave de fior di latte com um toque frutado exótico.",
+    en: "Smooth fior di latte gelato with an exotic fruity touch.",
+    it: "Gelato fior di latte morbido con un tocco fruttato esotico.",
+    fr: "Gelato fior di latte doux avec une touche fruitée exotique."
+  },
+  allergens: ["soja", "leche"]
+},
+{
+  name: {
+    es: "Blueberry cheesecake",
+    pt: "Blueberry cheesecake",
+    en: "Blueberry cheesecake",
+    it: "Blueberry cheesecake",
+    fr: "Blueberry cheesecake"
+  },
+  image: "imagenes/blueberry_cheesecake.jpg",
+  desc: {
+    es: "Gelato inspirado en cheesecake con arándanos, cremoso y elegante.",
+    pt: "Gelato inspirado em cheesecake com mirtilos, cremoso e elegante.",
+    en: "Cheesecake-inspired gelato with blueberries, creamy and elegant.",
+    it: "Gelato ispirato al cheesecake ai mirtilli, cremoso ed elegante.",
+    fr: "Gelato inspiré du cheesecake aux myrtilles, crémeux et élégant."
+  },
+  allergens: ["soja", "huevos", "leche"]
+},
   {
     name: {
       es: "Pistacho",
