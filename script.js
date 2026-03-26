@@ -50,7 +50,7 @@ const uiText = {
   step4TextSoft: "Si tu experiencia te encantó, compártela con nosotros.",
   backToMenu: "Volver al menú",
   flavors: "Sabores",
-  otherProducts: "Otros productos",
+  otherProducts: "Nuestros productos",
   reviewGoogle: "Valóranos en"
 },
     miniFlavors: {
@@ -215,7 +215,7 @@ faq: {
   step4TextSoft: "Se adoraste a experiência, partilha-a connosco.",
   backToMenu: "Voltar ao menu",
   flavors: "Sabores",
-  otherProducts: "Outros produtos",
+  otherProducts: "Os nossos produtos",
   reviewGoogle: "Avalia-nos no"
 },
     miniFlavors: {
@@ -379,7 +379,7 @@ faq: {
   step4TextSoft: "If you loved the experience, share it with us.",
   backToMenu: "Back to menu",
   flavors: "Flavors",
-  otherProducts: "Other products",
+  otherProducts: "Our products",
   reviewGoogle: "Rate us on"
 },
     miniFlavors: {
@@ -543,7 +543,7 @@ faq: {
   step4TextSoft: "Se hai amato l’esperienza, condividila con noi.",
   backToMenu: "Torna al menu",
   flavors: "Gusti",
-  otherProducts: "Altri prodotti",
+  otherProducts: "I nostri prodotti",
   reviewGoogle: "Valutaci su"
 },
     miniFlavors: {
@@ -707,7 +707,7 @@ faq: {
   step4TextSoft: "Si vous avez adoré l’expérience, partagez-la avec nous.",
   backToMenu: "Retour au menu",
   flavors: "Parfums",
-  otherProducts: "Autres produits",
+  otherProducts: "Nos produits",
   reviewGoogle: "Notez-nous sur"
 },
     miniFlavors: {
