@@ -1202,17 +1202,17 @@ function createCardHTML(item) {
       <div class="card-front">
         <div class="image-wrap">
           ${item.image ? `<img src="${item.image}" alt="${itemName}">` : ""}
+          <span class="info-hint">i</span>
         </div>
         <div class="front-bottom">
           <div class="front-title">${itemName}</div>
-          <span class="flip-hint">↻</span>
         </div>
       </div>
 
       <div class="card-back">
         <div class="back-top">
           <h4>${itemName}</h4>
-          <span class="back-flip">↻</span>
+          <span class="back-info-hint">i</span>
         </div>
         <p>${itemDesc}</p>
         ${renderAllergens(item.allergens)}
