@@ -134,6 +134,43 @@ blueberryCheesecake: "Blueberry cheesecake",
   reviewGoogle: "Valóranos en",
   backToMenu: "Volver al menú"
 },
+faq: {
+  trigger: "¿Tienes alguna duda?",
+  items: [
+    {
+      q: "¿Por dónde empiezo?",
+      a: "Elige tu tamaño y toppings en el mostrador — nuestros artistas gelato harán el resto. La flor es nuestra firma."
+    },
+    {
+      q: "¿Cuántos sabores puedo elegir?",
+      a: "Todos los que quieras. Sin límite. Ese es el juego."
+    },
+    {
+      q: "¿El tamaño limita los sabores?",
+      a: "Para nada. En cualquier tamaño, el límite lo pones tú."
+    },
+    {
+      q: "¿Si pido en copa también tengo la flor?",
+      a: "La flor solo nace en el cono — es su forma natural. En copa el gelato sigue siendo igual de bueno, pero sin la magia de los pétalos."
+    },
+    {
+      q: "¿Tienen opciones veganas?",
+      a: "Todos nuestros sorbetes son 100% veganos. Y si quieres, también tenemos cono vegano."
+    },
+    {
+      q: "¿Hay servicio en mesa?",
+      a: "El pedido se hace en el mostrador — pero una vez que tienes tu flor en mano, la mesa es toda tuya."
+    },
+    {
+      q: "¿Los helados tienen gluten?",
+      a: "Ninguno de nuestros helados contiene gluten. Disfruta sin preocupaciones."
+    },
+    {
+      q: "¿Tienen protocolo para alergias?",
+      a: "Sí — infórmanos al hacer tu pedido y nuestros artistas gelato estarán especialmente atentos. Tenemos un protocolo específico para cuidarte. Como precaución, te avisamos que no podemos garantizar la ausencia total de contaminación cruzada."
+    }
+  ]
+},
     
   },
 
@@ -262,6 +299,43 @@ blueberryCheesecake: "Blueberry cheesecake",
   reviewGoogle: "Avalia-nos no",
   backToMenu: "Voltar ao menu"
 },
+faq: {
+  trigger: "Tens alguma dúvida?",
+  items: [
+    {
+      q: "Por onde começo?",
+      a: "Escolhe o teu tamanho e toppings ao balcão — os nossos artistas gelato tratam do resto. A flor é a nossa assinatura."
+    },
+    {
+      q: "Quantos sabores posso escolher?",
+      a: "Todos os que quiseres. Sem limite. Esse é o jogo."
+    },
+    {
+      q: "O tamanho limita os sabores?",
+      a: "De forma alguma. Em qualquer tamanho, o limite és tu."
+    },
+    {
+      q: "Se pedir em copo também tenho a flor?",
+      a: "A flor só nasce no cone — é a sua forma natural. Em copo o gelato é igualmente bom, mas sem a magia das pétalas."
+    },
+    {
+      q: "Têm opções vegan?",
+      a: "Todos os nossos sorbets são 100% vegan. E se quiseres, também temos cone vegan."
+    },
+    {
+      q: "Há serviço à mesa?",
+      a: "O pedido faz-se ao balcão — mas assim que tens a tua flor na mão, a mesa é toda tua."
+    },
+    {
+      q: "Os gelatos têm glúten?",
+      a: "Nenhum dos nossos gelatos contém glúten. Desfruta sem preocupações."
+    },
+    {
+      q: "Têm protocolo para alergias?",
+      a: "Sim — informa-nos ao fazer o teu pedido e os nossos artistas gelato estarão especialmente atentos. Temos um protocolo específico para te cuidar. Como precaução, avisamos que não podemos garantir a ausência total de contaminação cruzada."
+    }
+  ]
+},
   },
 
   en: {
@@ -388,6 +462,43 @@ blueberryCheesecake: "Blueberry cheesecake",
 
   reviewGoogle: "Rate us on",
   backToMenu: "Back to menu"
+},
+faq: {
+  trigger: "Got any questions?",
+  items: [
+    {
+      q: "Where do I start?",
+      a: "Choose your size and toppings at the counter — our gelato artists will take care of the rest. The flower is our signature."
+    },
+    {
+      q: "How many flavors can I choose?",
+      a: "As many as you want. No limit. That's the whole point."
+    },
+    {
+      q: "Does the size limit the flavors?",
+      a: "Not at all. In any size, the only limit is you."
+    },
+    {
+      q: "If I order in a cup, do I get the flower too?",
+      a: "The flower only blooms on the cone — it's its natural shape. In a cup the gelato is just as delicious, but without the petal magic."
+    },
+    {
+      q: "Do you have vegan options?",
+      a: "All our sorbets are 100% vegan. And if you'd like, we also have a vegan cone."
+    },
+    {
+      q: "Is there table service?",
+      a: "Orders are placed at the counter — but once you have your flower in hand, the table is all yours."
+    },
+    {
+      q: "Is the gelato gluten-free?",
+      a: "None of our gelatos contain gluten. Enjoy without worry."
+    },
+    {
+      q: "Do you have an allergy protocol?",
+      a: "Yes — let us know when placing your order and our gelato artists will take special care of you. We have a specific protocol to look after you. As a precaution, please note that we cannot fully guarantee the absence of cross-contamination."
+    }
+  ]
 },
   },
 
@@ -516,6 +627,43 @@ blueberryCheesecake: "Blueberry cheesecake",
   reviewGoogle: "Valutaci su",
   backToMenu: "Torna al menu"
 },
+faq: {
+  trigger: "Hai qualche domanda?",
+  items: [
+    {
+      q: "Da dove inizio?",
+      a: "Scegli la tua dimensione e i topping al banco — i nostri artisti gelato faranno il resto. Il fiore è la nostra firma."
+    },
+    {
+      q: "Quanti gusti posso scegliere?",
+      a: "Tutti quelli che vuoi. Senza limite. È questo il bello."
+    },
+    {
+      q: "La dimensione limita i gusti?",
+      a: "Per niente. In qualsiasi dimensione, il limite lo metti tu."
+    },
+    {
+      q: "Se ordino in coppa ho anche il fiore?",
+      a: "Il fiore nasce solo nel cono — è la sua forma naturale. In coppa il gelato è altrettanto buono, ma senza la magia dei petali."
+    },
+    {
+      q: "Avete opzioni vegane?",
+      a: "Tutti i nostri sorbetti sono 100% vegani. E se vuoi, abbiamo anche il cono vegano."
+    },
+    {
+      q: "C'è servizio al tavolo?",
+      a: "L'ordine si fa al banco — ma una volta che hai il tuo fiore in mano, il tavolo è tutto tuo."
+    },
+    {
+      q: "I gelati contengono glutine?",
+      a: "Nessuno dei nostri gelati contiene glutine. Goditi ogni morso senza pensieri."
+    },
+    {
+      q: "Avete un protocollo per le allergie?",
+      a: "Sì — comunicacelo al momento dell'ordine e i nostri artisti gelato saranno particolarmente attenti. Abbiamo un protocollo specifico per prenderci cura di te. Come precauzione, ti avvisiamo che non possiamo garantire l'assenza totale di contaminazione crociata."
+    }
+  ]
+},
   },
 
   fr: {
@@ -642,6 +790,43 @@ blueberryCheesecake: "Blueberry cheesecake",
 
   reviewGoogle: "Notez-nous sur",
   backToMenu: "Retour au menu"
+},
+faq: {
+  trigger: "Une question ?",
+  items: [
+    {
+      q: "Par où je commence ?",
+      a: "Choisissez votre taille et vos toppings au comptoir — nos artistes gelato s'occupent du reste. La fleur est notre signature."
+    },
+    {
+      q: "Combien de parfums puis-je choisir ?",
+      a: "Autant que vous voulez. Sans limite. C'est tout le principe."
+    },
+    {
+      q: "La taille limite-t-elle les parfums ?",
+      a: "Pas du tout. Quelle que soit la taille, la seule limite c'est vous."
+    },
+    {
+      q: "Si je commande en coupe, j'ai aussi la fleur ?",
+      a: "La fleur ne naît que dans le cornet — c'est sa forme naturelle. En coupe le gelato est tout aussi bon, mais sans la magie des pétales."
+    },
+    {
+      q: "Avez-vous des options vegan ?",
+      a: "Tous nos sorbets sont 100% vegan. Et si vous le souhaitez, nous avons aussi un cornet vegan."
+    },
+    {
+      q: "Y a-t-il un service à table ?",
+      a: "La commande se passe au comptoir — mais une fois votre fleur en main, la table est à vous."
+    },
+    {
+      q: "Les glaces contiennent-elles du gluten ?",
+      a: "Aucun de nos gelatos ne contient de gluten. Savourez sans souci."
+    },
+    {
+      q: "Avez-vous un protocole pour les allergies ?",
+      a: "Oui — signalez-le lors de votre commande et nos artistes gelato seront particulièrement attentifs. Nous avons un protocole spécifique pour prendre soin de vous. Par précaution, nous vous informons que nous ne pouvons pas garantir l'absence totale de contamination croisée."
+    }
+  ]
 },
   }
 };
@@ -1239,7 +1424,38 @@ function render(containerId, items) {
     container.appendChild(card);
   });
 }
+function toggleFaq() {
+  const list = document.getElementById("faqList");
+  const arrow = document.getElementById("faqArrow");
+  if (!list) return;
+  list.classList.toggle("visible");
+  arrow.classList.toggle("open");
+}
 
+function renderFaq() {
+  const list = document.getElementById("faqList");
+  if (!list) return;
+
+  const items = uiText[locale]?.faq?.items || uiText.en.faq.items;
+
+  list.innerHTML = items.map((item, i) => `
+    <div class="faq-item" id="faqItem${i}">
+      <button class="faq-question" onclick="toggleFaqItem(${i})">
+        <span>${item.q}</span>
+        <span class="faq-question-arrow">›</span>
+      </button>
+      <div class="faq-answer">${item.a}</div>
+    </div>
+  `).join("");
+}
+
+function toggleFaqItem(i) {
+  const item = document.getElementById("faqItem" + i);
+  if (!item) return;
+  item.classList.toggle("open");
+}
+
+renderFaq();
 applyPageTranslations();
 render("sorbets", sorbets);
 render("gelatos", gelatos);
