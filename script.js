@@ -10,11 +10,9 @@ const locale = getLocale();
 function getLocalReviewLink() {
   const params = new URLSearchParams(window.location.search);
   const local = params.get("local");
-
   if (local === "deck") {
     return "https://search.google.com/local/writereview?placeid=ChIJQULSFpK1Gg0RH5n72IY8y88";
   }
-
   return "https://search.google.com/local/writereview?placeid=ChIJJZ5ITJq1Gg0RJYv1OtXW7WI";
 }
 
@@ -873,10 +871,6 @@ function applyPageTranslations() {
     const key = element.dataset.i18nHtml;
     element.innerHTML = getText(key);
   });
-
-  document.querySelectorAll("#reviewBtn").forEach(btn => {
-    btn.href = reviewLink;
-  });
 }
 
 const allergenMeta = {
@@ -1472,10 +1466,6 @@ function toggleFaqItem(i) {
 }
 
 renderFaq();
-document.querySelectorAll(".review-btn").forEach((btn) => {
-  btn.href = reviewLink;
-});
-
 applyPageTranslations();
 render("sorbets", sorbets);
 render("gelatos", gelatos);
