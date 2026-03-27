@@ -7,6 +7,16 @@ function getLocale() {
 }
 
 const locale = getLocale();
+function getLocalReviewLink() {
+  const params = new URLSearchParams(window.location.search);
+  const local = params.get("local");
+  if (local === "deck") {
+    return "https://search.google.com/local/writereview?placeid=ChIJQULSFpK1Gg0RH5n72IY8y88";
+  }
+  return "https://search.google.com/local/writereview?placeid=ChIJJZ5ITJq1Gg0RJYv1OtXW7WI";
+}
+
+const reviewLink = getLocalReviewLink();
 
 const uiText = {
   es: {
@@ -860,6 +870,10 @@ function applyPageTranslations() {
   document.querySelectorAll("[data-i18n-html]").forEach((element) => {
     const key = element.dataset.i18nHtml;
     element.innerHTML = getText(key);
+  });
+
+  document.querySelectorAll("#reviewBtn").forEach(btn => {
+    btn.href = reviewLink;
   });
 }
 
