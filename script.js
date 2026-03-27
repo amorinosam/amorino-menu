@@ -10,9 +10,11 @@ const locale = getLocale();
 function getLocalReviewLink() {
   const params = new URLSearchParams(window.location.search);
   const local = params.get("local");
+
   if (local === "deck") {
     return "https://search.google.com/local/writereview?placeid=ChIJQULSFpK1Gg0RH5n72IY8y88";
   }
+
   return "https://search.google.com/local/writereview?placeid=ChIJJZ5ITJq1Gg0RJYv1OtXW7WI";
 }
 
@@ -1470,6 +1472,10 @@ function toggleFaqItem(i) {
 }
 
 renderFaq();
+document.querySelectorAll(".review-btn").forEach((btn) => {
+  btn.href = reviewLink;
+});
+
 applyPageTranslations();
 render("sorbets", sorbets);
 render("gelatos", gelatos);
