@@ -1466,6 +1466,10 @@ function toggleFaqItem(i) {
 }
 
 renderFaq();
+document.querySelectorAll("#reviewBtn").forEach(btn => {
+  btn.href = reviewLink;
+});
+
 applyPageTranslations();
 render("sorbets", sorbets);
 render("gelatos", gelatos);
