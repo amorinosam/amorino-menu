@@ -9,7 +9,11 @@ function getLocale() {
 const locale = getLocale();
 function getLocalReviewLink() {
   const params = new URLSearchParams(window.location.search);
-  const local = params.get("local");
+  const localParam = params.get("local");
+  if (localParam) {
+    localStorage.setItem("amorinoLocal", localParam);
+  }
+  const local = localParam || localStorage.getItem("amorinoLocal");
   if (local === "deck") {
     return "https://search.google.com/local/writereview?placeid=ChIJQULSFpK1Gg0RH5n72IY8y88";
   }
